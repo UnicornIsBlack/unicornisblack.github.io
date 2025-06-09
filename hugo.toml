@@ -7,7 +7,7 @@ pluralizelisttitles = false
 
 [params]
     brand = "Poison"
-    # brand_image = "/images/brand_image.jpg"
+    brand_image = "https://telegraph-955.pages.dev/1749051247469.jpeg"
     # og_image = ""                             # path to social icon - front matter: image takes precedent, then og_image, then brand_url
     # publisher_icon = ""                       # path to publisher icon - defaults to favicon, used in schema
     # favicon = ""                              # path to favicon
