@@ -1,7 +1,8 @@
 ---
 title: "游戏运行时reload lua脚本修改"
-date: 2025-6-12T11:03:53+08:00
+date: 2025-06-12T11:08:05+08:00
 draft: false
+image: brand_image.jpg
 tags: ["lua","xlua", "unity"]
 series: "Unity with xlua"
 ---
