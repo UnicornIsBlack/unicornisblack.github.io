@@ -21,3 +21,10 @@ series: "Unity with xlua"
 &emsp;&emsp;原先的reload脚本是通过hook require函数，在require模块的时候（这部分需要再打日志来确定一下）
 
 &emsp;&emsp;在加载reload时，记录当前系统时间，全量reload时，对比已加载模块最后修改时间，将修改时间在启动时间后的模块重新加载
+
+
+``` 
+local oldModule = package.loaded[moduleName]
+package.loaded[name] = nil
+local newModule = require(moduleName)
+``` 
